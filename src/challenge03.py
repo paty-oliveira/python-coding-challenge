@@ -15,5 +15,12 @@
 """
 
 
-def online_count(param):
-    pass
+def online_count(statuses: dict):
+    online_users = 0
+    for status in statuses.values():
+        if status == "online":
+            online_users += 1
+        else:
+            online_users = 0
+
+    return online_users
