@@ -10,5 +10,5 @@
 """
 
 
-def capital_indexes(param):
-    pass
+def capital_indexes(statement: str):
+    return [statement.index(letter) for letter in statement if letter.isupper()]
