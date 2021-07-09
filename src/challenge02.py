@@ -12,5 +12,12 @@
 """
 
 
-def mid(param):
-    pass
+def mid(statement):
+    length_statement = len(statement)
+
+    if length_statement % 2 == 0:
+        middle_letter = ""
+    else:
+        index = length_statement // 2
+        middle_letter = statement[index]
+    return middle_letter
