@@ -11,5 +11,5 @@
 """
 
 
-def is_anagram(param):
-    pass
+def is_anagram(statement1: str, statement2: str):
+    return sorted(statement1.lower()) == sorted(statement2.lower())
