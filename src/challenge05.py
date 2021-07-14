@@ -12,5 +12,5 @@
 """
 
 
-def only_ints(param):
-    pass
+def only_ints(param1, param2):
+    return isinstance(param1, int) & isinstance(param2, int)
