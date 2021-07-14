@@ -13,11 +13,7 @@
 
 
 def mid(statement):
-    length_statement = len(statement)
-
-    if length_statement % 2 == 0:
-        middle_letter = ""
+    if len(statement) % 2 == 0:
+        return ""
     else:
-        index = length_statement // 2
-        middle_letter = statement[index]
-    return middle_letter
+        return statement[len(statement) // 2]
