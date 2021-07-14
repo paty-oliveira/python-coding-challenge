@@ -8,6 +8,8 @@
     >> random_number()
     >> 42 or 63 or 1 or another number until 100
 """
+import random
+
 
 def random_number():
-    pass
+    return random.randint(1, 100)
