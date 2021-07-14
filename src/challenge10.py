@@ -9,5 +9,5 @@
 """
 
 
-def flatten(param):
-    pass
+def flatten(two_dimensional_list: list):
+    return [element for lists in two_dimensional_list for element in lists]
