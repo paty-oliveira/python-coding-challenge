@@ -12,5 +12,5 @@
 """
 
 
-def double_letters(param):
-    pass
+def double_letters(letters):
+    return any(letters[letter] == letters[letter + 1] for letter in range(len(letters) - 1))
