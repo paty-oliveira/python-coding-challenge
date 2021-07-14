@@ -11,5 +11,5 @@
 """
 
 
-def count(param):
-    pass
+def count(statement: str):
+    return len([char for char in statement if char == "-"]) + 1
