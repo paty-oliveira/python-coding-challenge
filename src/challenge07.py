@@ -15,9 +15,9 @@
 """
 
 
-def add_dots(param):
-    pass
+def add_dots(statement):
+    return ".".join(statement)
 
 
-def remove_dots(param):
-    pass
+def remove_dots(statement: str):
+    return statement.replace(".", "")
