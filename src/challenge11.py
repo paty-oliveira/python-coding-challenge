@@ -10,5 +10,5 @@
 """
 
 
-def largest_difference(param):
-    pass
+def largest_difference(numbers):
+    return max(numbers) - min(numbers)
