@@ -11,5 +11,5 @@
 """
 
 
-def div_3(param):
-    pass
+def div_3(number):
+    return number % 3 == 0
