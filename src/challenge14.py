@@ -7,10 +7,10 @@
     Example:
     >> palindrome("bob")
     >> True
-    >> >> palindrome("abba")
+    >> palindrome("hello")
     >> False
 """
 
 
-def palindrome(param):
-    pass
+def palindrome(word):
+    return word == word[::-1]
