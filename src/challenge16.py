@@ -10,6 +10,12 @@
     >> 3
 """
 
+import re
 
-def consecutive_zeros(param):
-    pass
+
+def consecutive_zeros(instructions: str):
+    max_zeros = 0
+    if instructions.count("0") >= 1:
+        max_zeros = max(map(len, re.findall("[0]+", instructions)))
+
+    return max_zeros
