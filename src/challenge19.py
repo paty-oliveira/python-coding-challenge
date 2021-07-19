@@ -9,5 +9,5 @@
 """
 
 
-def convert(param):
-    pass
+def convert(numbers):
+    return [str(number) for number in numbers]
