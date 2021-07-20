@@ -25,5 +25,27 @@
 """
 
 
-def validate(param):
-    pass
+def analyze_code(code):
+    return [True for keyword in ["def", ":", "( and )", "    ", "validate", "return"] if keyword in code]
+
+
+def process_error_messages(code):
+    keywords_error_messages = {
+        "def": "missing def",
+        ":": "missing :",
+        "( and )": "missing paren",
+        "    ": "missing indent",
+        "validate": "wrong name",
+        "return": "missing return"
+    }
+    return [error_message for keyword, error_message in keywords_error_messages.items() if keyword not in code]
+
+
+def validate(code_statement):
+    syntax_checks = analyze_code(code_statement)
+    error_messages = process_error_messages(code_statement)
+
+    if len(syntax_checks) == 6:
+        return True
+    else:
+        return error_messages[0]
