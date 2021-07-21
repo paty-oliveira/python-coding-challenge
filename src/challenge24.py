@@ -9,5 +9,5 @@
 """
 
 
-def format_number(param):
-    pass
+def format_number(number):
+    return f"{number:,}"
