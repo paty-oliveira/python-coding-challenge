@@ -11,5 +11,5 @@
 """
 
 
-def param_count(param):
-    pass
+def param_count(*args):
+    return len(args)
