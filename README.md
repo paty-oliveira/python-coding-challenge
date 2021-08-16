@@ -34,3 +34,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 22. [List xor](src/challenge22.py)
 23. [Counting parameters](src/challenge23.py)
 24. [Thousands separator](src/challenge24.py)
+25. [Who likes it?](src/challenge25.py)
