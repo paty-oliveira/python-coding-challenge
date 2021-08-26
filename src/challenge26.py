@@ -13,7 +13,7 @@ You have to write a function printer_error which given a string will return the 
 string representing a rational whose numerator is the number of errors and the denominator the length of the
 control string. Don't reduce this fraction to a simpler expression.
 
-The string has a length greater or equal to one and contains only letters from ato z.
+The string has a length greater or equal to one and contains only letters from a to z.
 
 Examples:
 s="aaabbbbhaijjjm"
@@ -24,5 +24,16 @@ printer_error(s) => "8/22"
 """
 
 
+def validate_label(label):
+    control_string = "abcdefghijklm"
+
+    return [color for color in label if color not in control_string]
+
+
 def printer_error(label):
-    pass
+    wrong_colors = validate_label(label)
+    message = "{number_errors}/{label_length}".format(number_errors=str(len(wrong_colors)),
+                                                      label_length=str(len(label)))
+
+    return message
+
