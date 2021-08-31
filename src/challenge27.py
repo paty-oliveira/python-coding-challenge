@@ -12,5 +12,8 @@ All letters will be lowercase and all inputs will be valid.
 """
 
 
-def obtain_high_scoring_word(phrase):
-    pass
+def obtain_high_scoring_word(phrase: str):
+    score = {word: sum([ord(letter) - 96 for letter in word])
+             for word in phrase.split(" ")}
+
+    return max(score, key=score.get)
