@@ -37,3 +37,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 25. [Who likes it?](src/challenge25.py)
 26. [Printer Errors](src/challenge26.py)
 27. [Highest Scoring Word](src/challenge27.py)
+28. [Missing Term in an Arithmetic Progression](src/challenge28.py)
