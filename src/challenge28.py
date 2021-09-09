@@ -14,5 +14,6 @@ I found it quite fun to solve on paper using math, derive the algo that way. Hav
 """
 
 
-def find_missing(numbers):
-    pass
+def find_missing(numbers: list):
+    formula = (numbers[0] + numbers[-1]) * (len(numbers) + 1) / 2
+    return formula - sum(numbers)
