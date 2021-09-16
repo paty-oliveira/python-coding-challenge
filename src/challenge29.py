@@ -13,4 +13,6 @@ to_weird_case('Weird string case') # => returns 'WeIrD StRiNg CaSe'
 
 
 def to_weird_case(word: str):
-    pass
+    new_word = [letter.upper() if index % 2 == 0 else letter.lower() for index, letter in enumerate(word)]
+
+    return "".join(new_word)
