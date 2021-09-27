@@ -40,3 +40,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 28. [Missing Term in an Arithmetic Progression](src/challenge28.py)
 29. [Weird String Case](src/challenge29.py)
 30. [Don't Drink the Water](src/challenge30.py)
+31. [Are they the "same"?](src/challenge31.py)
