@@ -41,3 +41,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 29. [Weird String Case](src/challenge29.py)
 30. [Don't Drink the Water](src/challenge30.py)
 31. [Are they the "same"?](src/challenge31.py)
+32. [Rot13 Encoding](src/challenge32.py)
