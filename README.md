@@ -42,3 +42,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 30. [Don't Drink the Water](src/challenge30.py)
 31. [Are they the "same"?](src/challenge31.py)
 32. [Rot13 Encoding](src/challenge32.py)
+33. [Help the bookseller](src/challenge33.py)
