@@ -43,3 +43,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 31. [Are they the "same"?](src/challenge31.py)
 32. [Rot13 Encoding](src/challenge32.py)
 33. [Help the bookseller](src/challenge33.py)
+34. [Sort the odd](src/challenge34.py)
