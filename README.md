@@ -45,3 +45,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 33. [Help the bookseller](src/challenge33.py)
 34. [Sort the odd](src/challenge34.py)
 35. [Moving Zeros to the End](src/challenge35.py)
+36. [RGB to Hex Conversion](src/challenge36.py)
