@@ -49,3 +49,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 37. [Character Counter](src/challenge37.py)
 38. [Length of missing array](src/challenge38.py)
 39. [First non-repeating character](src/challenge39.py)
+40. [Verify DNA sequence](src/challenge40.py)
