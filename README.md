@@ -52,3 +52,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 40. [Verify DNA sequence](src/challenge40.py)
 41. [The Hashtag Generator](src/challenge41.py)
 42. [Most Frequently Used Words in a Text](src/challenge42.py)
+43. [Unique by Order](src/challenge43.py)
