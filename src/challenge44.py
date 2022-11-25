@@ -14,6 +14,4 @@ isIsogram "aba" = false
 
 
 def is_isogram(string):
-    lower_string = string.lower()
-
-    return len(lower_string) == len(set(lower_string))
+    return len(string) == len(set(string.lower()))
