@@ -54,3 +54,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 42. [Most Frequently Used Words in a Text](src/challenge42.py)
 43. [Unique by Order](src/challenge43.py)
 44. [Isograms](src/challenge44.py)
+45. [Moving Zeros To The End](src/challenge45.py)
