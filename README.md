@@ -55,3 +55,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 43. [Unique by Order](src/challenge43.py)
 44. [Isograms](src/challenge44.py)
 45. [Moving Zeros To The End](src/challenge45.py)
+46. [Mean Square Error](src/challenge46.py)
