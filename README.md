@@ -1,6 +1,6 @@
 # Coding Challenges
 
-The goal of this repository is to improve Python programming skills with a coding challenge. 
+The goal of this repository is to improve Python programming skills with a coding challenge.
 The implementation of these challenges follows the methodology of Test-Driven Development, i.e.:
 
     - Think about tests cases
@@ -9,7 +9,7 @@ The implementation of these challenges follows the methodology of Test-Driven De
     - Test
     - Refactoring
     - Test again until all tests pass
-    
+
 1. [Capital Indexes](src/challenge01.py)
 2. [Middle Letter](src/challenge02.py)
 3. [Online Status](src/challenge03.py)
@@ -56,3 +56,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 44. [Isograms](src/challenge44.py)
 45. [Moving Zeros To The End](src/challenge45.py)
 46. [Mean Square Error](src/challenge46.py)
+47. [Categorize New Member](src/challenge47.pc)
