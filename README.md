@@ -58,3 +58,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 46. [Mean Square Error](src/challenge46.py)
 47. [Categorize New Member](src/challenge47.pc)
 48. [Convert String to Camle Case](src/challenge48.py)
+49. [Extract a portion of the file name](src/challenge49.py)
