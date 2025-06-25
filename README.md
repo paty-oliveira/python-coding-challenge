@@ -61,3 +61,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 49. [Extract a portion of the file name](src/challenge49.py)
 50. [Sort strings based on a digit](src/challenge50.py)
 51. [String Incrementer](src/challenge51.py)
+52. [Break Camel Case](src/challenge52.py)
