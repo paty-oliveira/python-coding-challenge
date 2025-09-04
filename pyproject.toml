@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python_coding_challenge"
+version = "0.1.0"
+description = "Repository with coding exercises implemented in Python"
+authors = ["paty-oliveira", "dev.patricia.oliveira@gmail.com"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<4.0"
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
