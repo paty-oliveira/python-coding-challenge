@@ -10,7 +10,7 @@ Implement a queue data structure in Python that contains the following operation
 - `Queue()`: Creates an instance of a Queue class that doesn't contain any items. The constructor does not accept any arguments.
 - `enqueue()`: Adds an item to the back of the queue. Required time complexity: O(1).
 - `dequeue()`: Removes an item from the front of the queue. Required time complexity: O(1).
-- `isEmpty()`: Determines if the queue is empty. Required time complexity: O(1).
+- `is_empty()`: Determines if the queue is empty. Required time complexity: O(1).
 - `front()`: Returns the item at the front of the queue without removing it from the queue. Required time complexity: O(1).
 - `back()`: Returns the item at the back of the queue without removing it from the queue. Required time complexity: O(1).
 - `length()`: Returns the number of items in the queue. Required time complexity: O(1).

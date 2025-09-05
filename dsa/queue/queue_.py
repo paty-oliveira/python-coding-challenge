@@ -28,14 +28,14 @@ class Queue(object):
     def front(self):
         """
         Returns the item at the front of the queue without removing it from the queue.
-        @return {*} The item at the front of the queue if it is not empty, `undefined` otherwise.
+        @return {*} The item at the front of the queue if it is not empty, `None` otherwise.
         """
         return self.queue[0]
 
     def back(self):
         """
         Returns the item at the back of the queue without removing it from the queue.
-        @return {*} The item at the back of the queue if it is not empty, `undefined` otherwise
+        @return {*} The item at the back of the queue if it is not empty, `None` otherwise
         """
         return self.queue[-1]
 
