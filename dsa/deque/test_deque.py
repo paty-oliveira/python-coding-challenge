@@ -1,0 +1,17 @@
+from deque import Deque
+
+new_dq = Deque()
+print(new_dq.is_empty())
+new_dq.add_rear(4)
+new_dq.add_rear("dog")
+new_dq.add_front("cat")
+new_dq.add_front(True)
+print(new_dq.deque)
+print(new_dq.size())
+print(new_dq.is_empty())
+print(new_dq.add_rear(8.4))
+print(new_dq.deque)
+print(new_dq.remove_rear())
+print(new_dq.deque)
+print(new_dq.remove_rear())
+print(new_dq.deque)
