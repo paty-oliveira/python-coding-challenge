@@ -67,3 +67,8 @@ The implementation of these challenges follows the methodology of Test-Driven De
 ## Data Structures & Algorithms
 
 1. [Stack](dsa/stack/stack.py)
+2. [Queue](dsa/queue/queue_.py)
+3. [Deque](dsa/deque/deque.py)
+4. [Ordered Linked List](dsa/linked_list/ordered_list.py)
+5. [Unordered Linked List](dsa/linked_list/unordered_list.py)
+6. [Doubly Linked List](dsa/doubly_linked_list/doubly_linked_list.py)
