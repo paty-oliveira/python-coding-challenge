@@ -63,6 +63,7 @@ The implementation of these challenges follows the methodology of Test-Driven De
 51. [String Incrementer](challenges/src/challenge51.py)
 52. [Break Camel Case](challenges/src/challenge52.py)
 53. [String accumulator](challenges/src/challenge53.py)
+54. [Find Unique Pairs that Sum to a Target](challenges/src/challenge54.py)
 
 ## Data Structures & Algorithms
 
