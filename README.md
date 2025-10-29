@@ -73,3 +73,4 @@ The implementation of these challenges follows the methodology of Test-Driven De
 4. [Ordered Linked List](dsa/linked_list/ordered_list.py)
 5. [Unordered Linked List](dsa/linked_list/unordered_list.py)
 6. [Doubly Linked List](dsa/doubly_linked_list/doubly_linked_list.py)
+7. [Binary Search](algorithms/binary_search/binary_search.py)
